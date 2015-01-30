@@ -1,3 +1,3 @@
 # firstDjangoApp
 
-This is a simple Django App
+This is a simple Django App for testing purpose
