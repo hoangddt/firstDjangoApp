@@ -1,0 +1,2 @@
+# firstDjangoApp
+For testing purpose
