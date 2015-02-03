@@ -65,6 +65,7 @@ DATABASES = {
     }
 }
 
+print "Database created at :", os.path.join(BASE_DIR, 'db.sqlite3')
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
