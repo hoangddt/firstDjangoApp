@@ -65,7 +65,13 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
 # print "Database created at :", os.path.join(BASE_DIR, 'db.sqlite3')
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
